@@ -1,0 +1,8 @@
+/.vscode
+/notebook
+/shell/__pycache__
+/shell/controller/__pycache__
+/shell/model/__pycache__
+/shell/view/__pycache__
+*.ini
+
