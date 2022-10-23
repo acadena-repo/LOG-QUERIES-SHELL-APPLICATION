@@ -29,10 +29,10 @@ def create_parser():
 
     filters.add_argument('--start-date', type=date_fromisoformat,
                          help="Return logged events on or after the given date, "
-                              "in YYYY-MM-DD HH:MM:SS format (e.g. 2020-12-31 23:59:59).")
+                              "in YYYY-MM-DD HH:MM:SS format (e.g. '2020-12-31 23:59:59').")
     filters.add_argument('--end-date', type=date_fromisoformat,
                          help="Return logged events on or before the given date, "
-                              "in YYYY-MM-DD HH:MM:SS format (e.g. 2020-12-31 23:59:59).")
+                              "in YYYY-MM-DD HH:MM:SS format (e.g. '2020-12-31 23:59:59').")
     filters.add_argument('--severity', type=str, choices=['ERROR','WARNING','INFO'],
                          help="Return logged events that contains the severity level specified")
     filters.add_argument('--code', type=str,
